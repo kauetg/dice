@@ -1,4 +1,6 @@
 import random
 
-dice = random.randint(1,6)
-print(f"The number is {dice}")
+def dice_number(number):
+    return random.randint(1,number)
+
+print(f"The number is {dice_number(20)}")
